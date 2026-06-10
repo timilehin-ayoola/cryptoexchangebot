@@ -17,7 +17,7 @@ from telegram.ext import (
 )
 from telegram.error import TelegramError
 
-from schema_types import IncomingMessage, BotResponse, Button, AttachmentType
+from schema_types import IncomingMessage, BotResponse, Button, Attachment, AttachmentType
 from engine import ConversationEngine
 from database import get_all_users
 from config import ADMIN_IDS
