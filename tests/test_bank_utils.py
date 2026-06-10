@@ -7,8 +7,8 @@ import sys
 mock_db = MagicMock()
 sys.modules['database'] = mock_db
 
-# Mock supabase and telegram if needed (though bank_utils only imports from database)
-sys.modules['supabase'] = MagicMock()
+# Mock psycopg2 and telegram if needed (though bank_utils only imports from database)
+sys.modules['psycopg2'] = MagicMock()
 sys.modules['telegram'] = MagicMock()
 sys.modules['telegram.ext'] = MagicMock()
 

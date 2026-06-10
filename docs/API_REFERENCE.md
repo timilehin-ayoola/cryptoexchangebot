@@ -41,8 +41,7 @@ api_key = get_env("TRONGRID_API_KEY", required=False)
 |------|------|-------------|
 | `BOT_TOKEN` | str | Telegram bot API token |
 | `ADMIN_IDS` | List[int] | List of admin user IDs |
-| `SUPABASE_URL` | str | Supabase database URL |
-| `SUPABASE_KEY` | str | Supabase API key |
+| `DATABASE_URL` | str | Neon PostgreSQL connection string |
 | `YOUR_USDT_WALLET` | str | Merchant USDT wallet address |
 | `YOUR_BANK_NAME` | str | Bank name for settlements |
 | `YOUR_BANK_ACCOUNT` | str | 10-digit bank account |
@@ -54,7 +53,7 @@ api_key = get_env("TRONGRID_API_KEY", required=False)
 
 ## database.py
 
-Supabase (PostgreSQL) abstraction layer for data persistence.
+Neon PostgreSQL abstraction layer for data persistence.
 
 ### User Management
 

@@ -331,8 +331,8 @@ See `DEPLOYMENT.md` for detailed steps.
 3. Verify Telegram bot is registered
 
 ### Database Connection Failed?
-1. Check `SUPABASE_URL` and `SUPABASE_KEY`
-2. Verify Supabase project is active
+1. Check `DATABASE_URL` is correct
+2. Verify Neon project is active (not paused)
 3. Check network connectivity
 
 ### Blockchain Verification Fails?

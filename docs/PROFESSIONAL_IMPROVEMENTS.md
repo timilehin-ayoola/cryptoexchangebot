@@ -141,7 +141,7 @@ After:
 python-telegram-bot>=21.1,<22.0
 requests>=2.28.0,<3.0
 python-dotenv>=0.21.0,<1.0
-supabase>=2.0.0,<3.0
+psycopg2-binary>=2.9.0,<3.0
 ```
 
 ### **Existing Configuration Files** ✅

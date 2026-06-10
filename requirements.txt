@@ -7,5 +7,15 @@ requests>=2.28.0,<3.0
 # Environment Configuration
 python-dotenv>=0.21.0,<1.0
 
-# Supabase Client (PostgreSQL Database)
-supabase>=2.0.0,<3.0
+# PostgreSQL Database (Neon)
+psycopg2-binary>=2.9.0,<3.0
+
+# Webhook Server (for Paystack integration)
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# Blockchain (for USDT auto-settlement — uncomment when ready)
+# tronpy>=0.4.0
+
+# MongoDB (for stack migration — uncomment when ready)
+# pymongo>=4.5.0

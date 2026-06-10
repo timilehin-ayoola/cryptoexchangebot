@@ -54,14 +54,11 @@ ADMIN_IDS: List[int] = (
 
 
 # ============================================================================
-# SUPABASE CONFIGURATION (Database)
+# DATABASE CONFIGURATION (Neon PostgreSQL)
 # ============================================================================
 
-SUPABASE_URL: str = get_env("SUPABASE_URL", required=True)
-"""Supabase project URL for database connection."""
-
-SUPABASE_KEY: str = get_env("SUPABASE_KEY", required=True)
-"""Supabase API key (service or anon key)."""
+DATABASE_URL: str = get_env("DATABASE_URL", required=True)
+"""Neon PostgreSQL connection string (postgresql://user:pass@ep-xxx.neon.tech/neondb)."""
 
 
 # ============================================================================
